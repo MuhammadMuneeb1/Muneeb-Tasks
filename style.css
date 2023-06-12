@@ -1,0 +1,55 @@
+/* Background Color Change on Button Click. */
+body {
+  text-align: center;
+  /* margin-top: 100px; */
+  background-color: rgba(173, 181, 189, 0.3);
+}
+.color-button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.9);
+  background-color: rgb(173, 181, 189);
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid #000;
+  border-radius: 8px;
+}
+h1,
+h2 {
+  color: rgba(255, 193, 7, 1);
+  border: 1px solid rgba(255, 193, 7, 0.6);
+  width: 300px;
+}
+
+hr {
+  width: 600px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+/* Search Functionality */
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#searchInput {
+  width: 100%;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

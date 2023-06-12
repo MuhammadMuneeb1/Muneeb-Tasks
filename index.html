@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Muneeb's Tasks</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Change Background Color on Button Click! -->
+    <div class="center">
+      <h1>Color Buttons</h1>
+    </div>
+    <button class="color-button" onclick="changeColor('red')">Red</button>
+    <button class="color-button" onclick="changeColor('green')">Green</button>
+    <button class="color-button" onclick="changeColor('blue')">Blue</button>
+    <br />
+    <hr />
+    <!-- Get Current GeoLocation and Ip Address -->
+    <div class="center">
+      <h2>Check Geo Location and Ip Address!</h2>
+    </div>
+    <button id="geoButton">Get Geo Location</button>
+    <button onclick="getIPAddress()">Get IP Address</button>
+    <br />
+    <hr />
+    <!-- Search Functionality -->
+    <div class="container">
+      <div class="gcse-search" id="searchInput"></div>
+    </div>
+    <script
+      async
+      src="https://cse.google.com/cse.js?cx=d560f66a18fc945d0"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
